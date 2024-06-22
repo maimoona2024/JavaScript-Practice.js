@@ -60,3 +60,35 @@ console.log(`After ${f} the answer is ${a*b}.`);
 d = "My name is";
 e = "I am learning";
 console.log(`${d} Maimoona and ${e} Javascript.`);
+
+
+
+
+
+
+
+
+
+
+//************************************************TLoops practice in js***************************************************
+i = 0;
+while(i <= 10) {
+    console.log(i);
+    i++;
+}
+for(i = 0; i <= 5; i++) {
+    console.log("Learning Javascript!");
+}
+let array = ["Lahore", "Karachi", "Quetta", "Islamabad"];
+
+for(const cities of array ) {
+    console.log(cities);
+}
+let obj = [
+    Name = "Talha";
+    Class = "X";
+    ]
+    
+for(const student in obj) {
+    console.log(student);
+}
