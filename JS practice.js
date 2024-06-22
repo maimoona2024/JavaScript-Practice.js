@@ -14,3 +14,26 @@ else if(operation == "/") {
     console.log("Division:",a/b);
 }
 else console.log("Get out!");
+
+
+
+
+
+
+
+//************************************************FUNCTIONS PRACTICE IN JS***************************************************
+function add(a,b) {
+    console.log("Addition:",a+b);
+}
+add(3,4);
+
+
+function square(n) {
+    console.log("Square",n**n)
+}
+square(2);
+
+function areaOfcircle(r) {
+    console.log("Area of circle:",2*3.14*r)
+}
+areaOfcircle(2);
