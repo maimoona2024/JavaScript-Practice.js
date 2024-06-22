@@ -37,3 +37,26 @@ function areaOfcircle(r) {
     console.log("Area of circle:",2*3.14*r)
 }
 areaOfcircle(2);
+
+
+
+
+
+
+
+
+
+
+//************************************************Template literal practice in js***************************************************
+let a = 4;
+let b = 7;
+let c = "addition";
+let f = "Multiplication";
+console.log(`After ${c} the answer is ${a+b}.`);
+console.log(`After ${f} the answer is ${a*b}.`);
+
+
+
+d = "My name is";
+e = "I am learning";
+console.log(`${d} Maimoona and ${e} Javascript.`);
