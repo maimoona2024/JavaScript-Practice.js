@@ -20,6 +20,31 @@ else console.log("Get out!");
 
 
 
+//************************************************VERY SIMPLE CALCULATOR IN JS***************************************************
+let a = 5;
+let b = 7;
+let Operation = "Div";
+do{
+if(Operation == "Add") {
+    console.log(a+b);
+}
+else if(Operation == "Sub") {
+    console.log(a-b)
+}
+else if(Operation == "Mul") {
+    console.log(a*b)
+}
+else if(Operation == "Div") {
+    console.log(a/b)
+}
+}
+while(Operation != "Add" && Operation != "Sub" 
+&& Operation !="Mul" && Operation != "Div")
+
+
+
+
+
 
 //************************************************FUNCTIONS PRACTICE IN JS***************************************************
 function add(a,b) {
